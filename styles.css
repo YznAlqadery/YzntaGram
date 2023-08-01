@@ -5,18 +5,10 @@ body{
   background-color: #FFFFF7;
 }
 header{
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  align-content: center;
-  flex-wrap: wrap;
+  border-bottom: 1px solid #000;
 }
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .user-pfp{
   margin-top: 30px;
 }
@@ -28,20 +20,13 @@ header{
 .logo{
   width: 200px;
 }
-.flex-row-posts{
-  width: 410px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2px;
-  background-color:#FFFFF7;
-}
 .pic-post{
   width: 100%;
   height: 375px;
   margin-bottom: 20px;
 }
-.flex-row-container,.flex-row-posts{
-  margin: 28px 70px;
+.flex-posts{
+  margin-top: 24px;
 }
 .name-loc{
   display: inline-block;
@@ -65,12 +50,13 @@ header{
   object-fit: contain;
 }
 section{
-  display:block;
-  margin: 10px auto;
-  width: 410px;
+  display: block;
+  margin: 0 auto;
+  width: 330px;
   background:#FFF;
-  padding: 10px;
+  padding: 4px 7px;
 }
+
 .bold{
   font-weight: 700;
   font-size: 14px;
